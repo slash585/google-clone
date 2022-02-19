@@ -23,12 +23,24 @@
 }
 
 .homeHeaderRight {
-    display: flex;
-    align-items: center;
-    min-width: 13vw;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
 }
 
 .homeHeaderRight > .MuiSvgIcon-root {
-    margin-right: 20px;
+  margin-right: 20px;
+}
+
+.homeBody {
+  flex: 1;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.homeBody img {
+    object-fit: contain;
+    height: 100px;
 }
