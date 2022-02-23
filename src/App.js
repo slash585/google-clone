@@ -1,12 +1,7 @@
 import './App.css';
 import Home from './views/Home'
+import SearchPage from './views/SearchPage.js';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
-const SearchPage = () => {
-  return (
-    <div>Search Page</div>
-  )
-}
 
 function App() {
   return (
